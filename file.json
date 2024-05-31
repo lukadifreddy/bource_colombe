@@ -1,0 +1,51 @@
+{ 
+    "agences":[
+        {
+            "id":1,
+            "name":"zando",
+            "code":"BZ",
+            "usd":0,
+            "cdf":0,
+            "count":0
+        },
+        {
+            "id":2,
+            "name":"kintambo",
+            "code":"BK",
+            "usd" : 0,
+            "cdf" : 0,
+            "count":0
+        },
+        {
+            "id":3,
+            "name":"gombe",
+            "code":"BG",
+            "usd" : 0,
+            "cdf" : 0,
+            "count":0
+        },
+        {
+            "id":4,
+            "name":"masina",
+            "code":"BM",
+            "usd" : 0,
+            "cdf" : 0,
+            "count":0  
+        },
+        {
+            "id":5,
+            "name":"limete",
+            "code":"BL",
+            "usd" : 0,
+            "cdf" : 0,
+            "count":0 
+        }
+    ],
+    "user":{
+        "id":1,
+        "name":"admin",
+        "password":"1234",
+        "operations":""
+    }
+
+}
