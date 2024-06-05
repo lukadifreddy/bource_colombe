@@ -1,51 +1,156 @@
-{ 
-    "agences":[
-        {
-            "id":1,
-            "name":"zando",
-            "code":"BZ",
-            "usd":0,
-            "cdf":0,
-            "count":0
-        },
-        {
-            "id":2,
-            "name":"kintambo",
-            "code":"BK",
-            "usd" : 0,
-            "cdf" : 0,
-            "count":0
-        },
-        {
-            "id":3,
-            "name":"gombe",
-            "code":"BG",
-            "usd" : 0,
-            "cdf" : 0,
-            "count":0
-        },
-        {
-            "id":4,
-            "name":"masina",
-            "code":"BM",
-            "usd" : 0,
-            "cdf" : 0,
-            "count":0  
-        },
-        {
-            "id":5,
-            "name":"limete",
-            "code":"BL",
-            "usd" : 0,
-            "cdf" : 0,
-            "count":0 
-        }
-    ],
-    "user":{
-        "id":1,
-        "name":"admin",
-        "password":"1234",
-        "operations":""
+{
+  "agences": [
+    {
+      "name": "zando",
+      "code": "BZ",
+      "usd": 0,
+      "cdf": 32450000,
+      "count": 3,
+      "id": "1"
+    },
+    {
+      "name": "kintambo",
+      "code": "BK",
+      "usd": "0785",
+      "cdf": 0,
+      "count": 1,
+      "id": "2"
+    },
+    {
+      "name": "gombe",
+      "code": "BG",
+      "usd": 0,
+      "cdf": 1255500,
+      "count": 1,
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "masina",
+      "code": "BM",
+      "usd": 0,
+      "cdf": 0,
+      "count": 0
+    },
+    {
+      "name": "limete",
+      "code": "BL",
+      "usd": "0500",
+      "cdf": 0,
+      "count": 1,
+      "id": "5"
     }
-
+  ],
+  "user": {
+    "id": 1,
+    "name": "admin",
+    "password": "1234",
+    "operations": ""
+  },
+  "operations": [
+    {
+      "id": "7873",
+      "expediteur": "rtgvf",
+      "destinateur": "grefv",
+      "montant": "89654",
+      "devise": "usd",
+      "agence": "limete"
+    },
+    {
+      "id": "d4d2",
+      "expediteur": "bonne journée ",
+      "beneficier": "j'espère ",
+      "montant": "5000",
+      "device": "CDF",
+      "agence": "masina"
+    },
+    {
+      "id": "9de2",
+      "expediteur": "dedier",
+      "destinateur": "ber",
+      "montant": "879",
+      "devise": "cdf",
+      "agence": "limete"
+    },
+    {
+      "id": "fc75",
+      "expediteur": "jh",
+      "destinateur": "kintambo",
+      "montant": "89654",
+      "devise": "cdf",
+      "agence": "gombe"
+    },
+    {
+      "id": "2e95",
+      "expediteur": "gd",
+      "destinateur": "ref",
+      "montant": "9864",
+      "devise": "usd",
+      "agence": "gombe"
+    },
+    {
+      "id": "6d1f",
+      "expediteur": "opij",
+      "destinateur": "klj",
+      "montant": "56",
+      "devise": "cdf",
+      "agence": "zando"
+    },
+    {
+      "id": "18a4",
+      "expediteur": "DVDs ",
+      "destinateur": "kintambo",
+      "montant": "879",
+      "devise": "usd",
+      "agence": "limete"
+    },
+    {
+      "id": "593a",
+      "expediteur": "livre",
+      "destinateur": "buku",
+      "montant": "500",
+      "devise": "usd",
+      "agence": "gombe"
+    },
+    {
+      "id": "87b0",
+      "expediteur": "dans ",
+      "destinateur": "kati",
+      "montant": "500",
+      "devise": "usd",
+      "agence": "masina"
+    },
+    {
+      "id": "06ff",
+      "expediteur": "freddy",
+      "destinateur": "kati",
+      "montant": "500",
+      "devise": "usd",
+      "agence": "limete"
+    },
+    {
+      "id": "840a",
+      "expediteur": "reaa",
+      "destinateur": "kati",
+      "montant": "32000000",
+      "devise": "cdf",
+      "agence": "zando"
+    },
+    {
+      "id": "afbc",
+      "expediteur": "bellamard",
+      "destinateur": "kevin",
+      "montant": "1255500",
+      "devise": "cdf",
+      "agence": "gombe"
+    },
+    {
+      "id": "754c",
+      "expediteur": "sarah",
+      "destinateur": "freddy",
+      "montant": "450000",
+      "devise": "cdf",
+      "agence": "zando"
+    }
+  ]
 }
